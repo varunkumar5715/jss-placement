@@ -17,13 +17,14 @@ const PlacementPage = () => {
     };
 
     return (
+    
         <div className="placement-page">
             <header className="header">
                 <h1>PLACEMENT CELL</h1>
             </header>
             <main className="content">
                 <section className="about">
-                    <h2 className="section-title">About</h2>
+                    <h2 className="section-title">About Us</h2>
                     <p>The Placement Cell at JSSISH was initiated to support students professional skills and employability. The Placement Cell has been instrumental in enhancing students' career development and fostering relationships between JSSISH and the corporate world. The placement cell also provides the opportunity for students to achieve psychomotor skills and soft skills required for employment. It prepares the student to work in their area of the interest. Training activities organized throughout the year prepares the students for the campus recruitment drive. This will help the students to enter into a successful career immediately after their academic and clinical training.</p>
                     <h4>Overall Goal</h4>
                     <p>To develop the training and placement cell as a means of career guidance and counselling and higher learning for the students.</p>
@@ -47,7 +48,7 @@ const PlacementPage = () => {
 
 
                 <section className="logos">
-                    <h2 className="section-title">Our Recruiters</h2>
+                    <h2 className="section-title1">Our Recruiters</h2>
                     <div className="logo-container">
                         <img src={logo1} alt="Company Logo 1" />
                         <img src={logo2} alt="Company Logo 2" />
@@ -57,9 +58,9 @@ const PlacementPage = () => {
                     </div>
                 </section>
                 <section className="statistics">
-                    <h2 className="section-title">Statistics</h2>
+                    <h2 className="section-title1">Statistics</h2>
                     <div className="table-section">
-                        <h3 className="table-title">PG (Speech)</h3>
+                        <h3 className="table-title">PG ( Department of Speech Language Pathology)</h3>
                         <table className="statistics-table">
                             <thead>
                                 <tr>
@@ -84,7 +85,7 @@ const PlacementPage = () => {
                         </table>
                     </div>
                     <div className="table-section">
-                        <h3 className="table-title">PG (Audiology)</h3>
+                        <h3 className="table-title">PG (Department of Audiology)</h3>
                         <table className="statistics-table">
                             <thead>
                                 <tr>
