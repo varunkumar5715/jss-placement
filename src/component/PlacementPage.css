@@ -1,0 +1,201 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Placement page container */
+.placement-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+    background-color: #2a3f54;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Content styles */
+.content {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section titles */
+.section-title {
+    background-color: #34495e;
+    color:whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    width: calc(100% );
+    margin-left: -20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title + p {
+    margin-top: 0;
+}
+
+/* About section */
+.about {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logos section */
+.logos {
+    margin-top: 40px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo-container img {
+    max-width: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Statistics section */
+.statistics {
+    margin-top: 40px;
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+.table-title {
+    background-color: #9ec5d4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-table th, .statistics-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.statistics-table th {
+    background-color: #2a3f54;
+    color: white;
+    font-weight: 500;
+}
+
+.statistics-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.statistics-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer styles */
+
+
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #9ec5d4; /* Background color */
+    padding: 20px;
+    text-align: center;
+    color: #000; /* Text color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px;
+  }
+  
+  .contact-details h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .contact-item {
+    margin-bottom: 10px;
+  }
+  
+  .contact-item h3 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000; /* Black color for bold text */
+  }
+  
+  .contact-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000; /* Black color for bold text */
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #000; /* Black color for text */
+  }
+  
+  .download-item {
+    margin-top: 20px;
+  }
+  
+  .download-item h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000; /* Black color for text */
+  }
+  
+  .download-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2F4046; /* Button color */
+    color: #fff; /* White text color */
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .download-item button:hover {
+    background-color: #1f2d33; /* Darker button color on hover */
+  }
+  
